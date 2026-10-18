@@ -73,3 +73,5 @@ export const TodoList: React.FC<Props> = React.memo(
     );
   },
 );
+
+TodoList.displayName = 'TodoList';
